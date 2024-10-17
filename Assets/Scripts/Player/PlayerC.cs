@@ -20,5 +20,6 @@ public class PlayerC : MonoBehaviour
         rb.velocity = movement.normalized * moveSpeed;
 
         transform.eulerAngles = movement.x > 0 ? Vector3.zero : movement.x < transform.position.x ? Vector3.up * 180 : transform.eulerAngles;
+		
     }
 }
