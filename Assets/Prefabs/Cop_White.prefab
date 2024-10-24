@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1282157410857551613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1995616535995107321}
+  m_Layer: 0
+  m_Name: SpawnBullet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1995616535995107321
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282157410857551613}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.57, y: -0.02, z: -0.0073609008}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5007734513783929052}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5266639841486780422
 GameObject:
   m_ObjectHideFlags: 0
@@ -170,7 +201,7 @@ GameObject:
   - component: {fileID: 1017508401369208955}
   - component: {fileID: 4639078723450263847}
   m_Layer: 0
-  m_Name: Arma nerd_0
+  m_Name: Arma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -188,7 +219,8 @@ Transform:
   m_LocalPosition: {x: 0.144, y: -0.189, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1995616535995107321}
   m_Father: {fileID: 2473855952549308972}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1017508401369208955
@@ -258,3 +290,6 @@ MonoBehaviour:
   gunTransform: {fileID: 0}
   gunSkin: {fileID: 0}
   playerP: {fileID: 0}
+  bullet_Prefab: {fileID: 8570934326940041382, guid: 1b269b47de5e1aa45ab431a188adc806, type: 3}
+  enemy_Close: {fileID: 8268502635355374950}
+  spawnBullet: {fileID: 0}

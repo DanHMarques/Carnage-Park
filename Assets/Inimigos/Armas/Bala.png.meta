@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 77cc1e39c2e8a8540b341f8476722a09
+guid: af97bc3dd388ca24b901ba7429f77c5b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,22 +123,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Arma nerd_0
+      name: Bala_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 23
-        height: 12
+        y: 12
+        width: 15
+        height: 6
       alignment: 9
-      pivot: {x: 0.08550725, y: 0.6629631}
+      pivot: {x: 0.011651444, y: 0.49493423}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99516fb31d2234243ad616dcd6bae5ea
-      internalID: -1077435626
+      spriteID: aa24cf63b3363214dbb4cf96b0c49a4f
+      internalID: 1809191059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754e9e6d32736d04db9890c91bbe0cb5
+      internalID: 1089015456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f8d989abc0e3748961864a0f2c2f98
+      internalID: -2058584332
       vertices: []
       indices: 
       edges: []
@@ -154,7 +196,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Arma nerd_0: -1077435626
+      Bala_0: 1809191059
+      Bala_1: 1089015456
+      Bala_2: -2058584332
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

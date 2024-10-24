@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Enemy_Close : MonoBehaviour
 {
-    [Header ("Follow Player")]
+    [Header("Follow Player")]
     [SerializeField] public Transform target;
     [SerializeField] public GameObject player;
     public bool inRay, inAttack;
@@ -11,7 +11,7 @@ public class Enemy_Close : MonoBehaviour
     public float speed;
     public float maxSpeed = 5f;
     [SerializeField] LayerMask playerL;
-    
+
     private void Start()
     {
         speed = maxSpeed;
@@ -34,14 +34,14 @@ public class Enemy_Close : MonoBehaviour
     void Shoot()
     {
         inRay = Physics2D.OverlapCircle(transform.position, ray, playerL);
-        if (inRay && !inAttack) 
+        if (inRay && !inAttack)
         {
             inAttack = true;
-            print("Atacou");
             StartCoroutine(Stop());
         }
     }
-    private void OnDrawGizmos() {
+    private void OnDrawGizmos()
+    {
         Gizmos.DrawWireSphere(transform.position, ray);
     }
     IEnumerator Stop()

@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &809498074086109912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7055327051299512320}
+  m_Layer: 0
+  m_Name: SpawnBullet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7055327051299512320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809498074086109912}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.57, y: -0.02, z: -0.0073609008}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3591873113136188769}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6496204035476340670
 GameObject:
   m_ObjectHideFlags: 0
@@ -12,7 +43,7 @@ GameObject:
   - component: {fileID: 4125120275670035678}
   - component: {fileID: 7550317466120167848}
   m_Layer: 0
-  m_Name: Arma nerd_0
+  m_Name: Arma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +61,8 @@ Transform:
   m_LocalPosition: {x: 0.144, y: -0.189, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7055327051299512320}
   m_Father: {fileID: 4181464407328406085}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4125120275670035678
@@ -100,6 +132,9 @@ MonoBehaviour:
   gunTransform: {fileID: 0}
   gunSkin: {fileID: 0}
   playerP: {fileID: 0}
+  bullet_Prefab: {fileID: 8570934326940041382, guid: 1b269b47de5e1aa45ab431a188adc806, type: 3}
+  enemy_Close: {fileID: 9117198340631882834}
+  spawnBullet: {fileID: 0}
 --- !u!1 &8606991228872829768
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,9 +259,9 @@ MonoBehaviour:
   player: {fileID: 0}
   inRay: 0
   inAttack: 0
-  ray: 1.5
+  ray: 3
   speed: 0
   maxSpeed: 5
   playerL:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8

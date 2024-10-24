@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 77cc1e39c2e8a8540b341f8476722a09
+guid: 7214df8e515777a448188ff9ded6fbae
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,22 +123,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Arma nerd_0
+      name: "explos\xE3o_0"
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 23
-        height: 12
-      alignment: 9
-      pivot: {x: 0.08550725, y: 0.6629631}
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99516fb31d2234243ad616dcd6bae5ea
-      internalID: -1077435626
+      spriteID: 68efcb4755b29c94fb813645809eebb8
+      internalID: 186620008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "explos\xE3o_1"
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a1d39a25d166346914b3ef6b88229b
+      internalID: -1221558812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "explos\xE3o_2"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6c946162f7c6f418dc71594938f81a
+      internalID: 78003210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "explos\xE3o_3"
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479a4715d3813914e9c40ccdaa4f6adf
+      internalID: -1296821899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "explos\xE3o_4"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777922e5d4f3797469f10d884210dc4b
+      internalID: -575657316
       vertices: []
       indices: 
       edges: []
@@ -154,7 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Arma nerd_0: -1077435626
+      "explos\xE3o_0": 186620008
+      "explos\xE3o_1": -1221558812
+      "explos\xE3o_2": 78003210
+      "explos\xE3o_3": -1296821899
+      "explos\xE3o_4": -575657316
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
